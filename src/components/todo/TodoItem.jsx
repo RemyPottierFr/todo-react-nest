@@ -14,7 +14,7 @@ function TodoItem({ todo, checkTodo, deleteTodo }) {
           🗑️
         </button>
       </div>
-      <span className={todo.done ? "done" : ""}>{todo.title}</span>
+      <span className={todo.done ? "done" : ""}>{todo.value}</span>
     </li>
   );
 }
