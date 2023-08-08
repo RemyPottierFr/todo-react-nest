@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.form > input {
+  border: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+.form > button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.form > button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}

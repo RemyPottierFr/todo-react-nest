@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+.item > div {
+  background: white;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.item > div > button {
+  background: transparent;
+  border: none;
+  height: 1.5rem;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.item > div > button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+  border-radius: 0.125rem;
+}
+
+.item > span {
+  font-size: 14px;
+}
+
+.item > .done {
+  text-decoration: line-through;
+  color: gray;
+}
